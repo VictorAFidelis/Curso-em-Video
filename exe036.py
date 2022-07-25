@@ -9,11 +9,12 @@ salario = float(input('Qual o valor do seu salário? R$'))
 tempo = float(input('Quantos anos você pretende pagar? '))
 parcela = casa / (tempo * 12)
 minimo = salario * 30 / 100
-print('Para pagar uma casa de R$ {:.2f} em {:.0f} anos '.format(casa, tempo), end='')
-print('a prestação sera de R$ {:.2f}'.format(parcela))
+print(f'Para pagar uma casa de R$ {casa:.2f} em {tempo:.0f} anos ', end='')
+print('a prestação sera de R$ {parcela:.2f}')
 if parcela <= minimo:
     print('Seu empréstimo foi \033[1;34mAPROVADO!')
 else:
     print('Seu empréstimo foi \033[1;31mNEGADO!')
+
 
 
