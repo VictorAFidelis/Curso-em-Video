@@ -11,19 +11,20 @@ elif sexo in 'm' or 'M':
 atual = date.today().year
 nasc = int(input('Qual o ano do seu nascimento? '))
 idade = atual - nasc
-print('Quem nasceu em {} tem {} anos em {}'.format(nasc, idade, atual))
+print(f'Quem nasceu em {nasc} tem {idade} anos em {atual}')
 if idade == 18:
     print('Você tem que se alistar IMEDIAMENTE.')
 elif idade > 18:
     saldo = idade - 18
-    print('Você deveria ter se alistado em {} anos.'.format(saldo))
+    print(f'Você deveria ter se alistado em {saldo} anos.')
     ano = atual- saldo
-    print('Seu alistamento foi no ano de {}'.format(ano))
+    print(f'Seu alistamento foi no ano de {ano}')
 elif idade < 18:
     saldo = 18 - idade
-    print('Você só precisa se alistar em {} anos.'. format(saldo))
+    print(f'Você só precisa se alistar em {saldo} anos.')
     ano = atual + saldo
-    print('Seu alistamento será no ano de {}.'.format(ano))
+    print(f'Seu alistamento será no ano de {ano}.')
+
 
 
 
