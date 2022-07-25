@@ -4,7 +4,8 @@ ano = int(input('Digite um ano você deseja analisar? Coloque 0 para analisar o 
 if ano == 0:
     ano = date.today().year
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-    print('O ano {} é BISSEXTO'.format(ano))
+    print(f'O ano {ano} é BISSEXTO')
 else:
-    print('O ano {} não é BISSEXTO'.format(ano))
+    print(f'O ano {ano} não é BISSEXTO')
+
 
