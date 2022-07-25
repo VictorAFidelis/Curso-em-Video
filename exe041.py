@@ -5,7 +5,7 @@ from datetime import date
 ano = date.today().year
 nasc = int(input('Qual o ano de nascimento do atleta '))
 idade = ano - nasc
-print('O atleta tem {} anos.'.format(idade))
+print(f'O atleta tem {idade} anos.')
 if idade <= 9:
     print('Categoria MIRIM.')
 elif idade <= 14:
@@ -16,6 +16,7 @@ elif idade <= 25:
     print('Categoria SENIOR')
 else:
     print('Categoria MASTER')
+
 
 
 
