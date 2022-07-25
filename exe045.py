@@ -15,8 +15,8 @@ print('KEN')
 sleep(1)
 print('PO!!!')
 print('-=-' * 11)
-print('Computador Jogou {}'.format(itens[pc]))
-print('Jogador jogou {}'.format(itens[jog]))
+print(f'Computador Jogou {itens[pc]}')
+print(f'Jogador jogou {itens[jog]}')
 print('-=-' * 11)
 if pc == 0: # computador jogou PEDRA
     if jog == 0:
@@ -39,6 +39,7 @@ elif pc == 2:
         print('Computador Venceu')
     else:
         print('Empatou')
+
 
 
 
