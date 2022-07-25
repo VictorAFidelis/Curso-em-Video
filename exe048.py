@@ -6,7 +6,8 @@ for c in range(1, 501, 2 ):
     if c % 3 == 0:
         cont = cont + 1
         soma = soma + c
-print('A soma dos {} valores digitaos é {}.'.format(cont, soma))
+print(f'A soma dos {cont} valores digitaos é {soma}.')
+
 
 
 
