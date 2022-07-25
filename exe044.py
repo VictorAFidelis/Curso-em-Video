@@ -1,7 +1,6 @@
 #Elabore um programa que calcule o valor a ser pago por um produto,
 # considerando o seu preço normal e condição de pagamento:
 # - à vista dinheiro/cheque: 10% de desconto
-
 print('============= LOJÃO DO FIDELIS ==========')
 c = int(input('Preco das Compras: R$ '))
 print('''FORMAS DE PAGAMENTO
@@ -17,16 +16,18 @@ elif o == 2:
 elif o == 3:
     total = c
     parcela = c / 2
-    print('Sua compra será parcelada em 2 vezes de R$ {:.2f}'.format(parcela))
+    print(f'Sua compra será parcelada em 2 vezes de R$ {parcela:.2f}')
 elif o == 4:
     total = c + (c * 20 / 100)
     totparc = int(input('Quantas parcelas? '))
     parcela = total / totparc
-    print('Sua compra será parcelada em {} vezes de R${:.2f}'.format(totparc, parcela))
+    print(f'Sua compra será parcelada em {totparc} vezes de R$ {parcela:.2f}')
+    print(f'Sua compra de R$ {c:.2f} vai custar R$ {total:.2f} no final.')
 else:
     o = 0
     print('OPÇÃO INVALIDA de pagamento, tente novamente!')
-print('Sua compra de R$ {:.2f} vai custar R$ {:.2f} no final.'.format(c, total))
+
+
 
 
 
