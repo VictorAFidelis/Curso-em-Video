@@ -10,18 +10,19 @@ print('CALCULO DE IMC')
 print('-=-' * 10)
 peso = float(input('Qual o seu peso? (KG) | '))
 altura = float(input('Qual a sua altura? (MT) | '))
-IMC = peso / (altura ** 2)
-print('Com o peso {} e altura {}, seu IMC é {:.1f}.'.format(peso, altura, IMC))
-if IMC < 18.5:
+imc = peso / (altura ** 2)
+print(f'Com o peso {peso} e altura {altura}, seu IMC é {imc:.1f}.')
+if imc < 18.5:
     print('Você está ABAIXO DO PESO')
-elif 18.5 <= IMC < 25:
+elif 18.5 <= imc < 25:
     print('Você está em seu PESO IDEAL')
-elif 25 <= IMC < 30:
+elif 25 <= imc < 30:
     print('Você está em SOBREPESO')
-elif 30 <= IMC < 40:
+elif 30 <= imc < 40:
     print('Você está em OBESIDADE')
-elif IMC >= 40:
+elif imc >= 40:
     print('Você está em OBESIDADE MORDIBA')
+
 
 
 
