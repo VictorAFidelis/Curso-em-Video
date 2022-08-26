@@ -10,3 +10,5 @@ for c in range(pt, decimo, r):
     print('{} '.format(c), end= '→ ')
 print('ACABOU')
 
+
+
