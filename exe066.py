@@ -10,4 +10,3 @@ while True:
     c += 1
     s = s + n
 print(f'Foram digitado {c} números. A soma dos número é {s}')
-
