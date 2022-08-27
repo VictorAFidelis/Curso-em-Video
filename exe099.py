@@ -21,5 +21,3 @@ def maior(*num):
 #programa principal
 maior(5, 7, 15, 18, 25, 13)
 maior(5, 9, 14, 44, 118, 358, 115, 25, 65,38, 289)
-
-
