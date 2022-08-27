@@ -21,17 +21,3 @@ print('-=-' * 20)
 print(f'A lista dos times em ordem alfabética é: {sorted(times)}')
 print('-=-' * 20)
 print(f'A Chapecoense se encontra na {times.index("Chapecoense")+1} posição')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
