@@ -41,11 +41,3 @@ elif pc == 2:
         print('Empatou')
 
 
-
-
-
-
-    2
-
-
-
