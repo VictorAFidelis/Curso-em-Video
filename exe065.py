@@ -13,5 +13,3 @@ print('Você digitou {} números. A soma dos valores digitados é {}.'.format(qu
 media = soma / quant
 print('A média dos valores digitados é {}'.format(media))
 print('Acabou')
-
-
