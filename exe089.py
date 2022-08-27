@@ -25,16 +25,3 @@ while True:
     if opc <= len(ficha) - 1:
         print(f'As notas de {ficha[opc][0]} são {ficha[opc][1]}')
 print('<<< Volte Sempre   >>>>')
-
-
-
-
-
-
-
-
-
-
-
-
-
