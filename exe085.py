@@ -13,15 +13,3 @@ lista[0].sort()
 lista[1].sort()
 print(f'Os numeros pares digitados foram: {(lista[0])}')
 print(f'Os números impares digitados foram: {lista[1]}')
-
-
-
-
-
-
-
-
-
-
-
-
