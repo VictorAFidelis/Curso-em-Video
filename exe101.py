@@ -19,5 +19,3 @@ def voto(nasc):
 # Programa Principal
 nasc = int(input('Em que ano você nasceu? '))
 print(voto(nasc))
-
-
