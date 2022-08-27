@@ -13,4 +13,3 @@ if cadastro['CTPS'] != 0:
     cadastro['Aposentadoria'] = cadastro['idade'] + (cadastro['Ano'] + 35) - datetime.now().year
 for k, v in cadastro.items():
     print(f'{k} = {v}')
-
