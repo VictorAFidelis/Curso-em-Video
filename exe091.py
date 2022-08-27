@@ -15,7 +15,3 @@ print( '== RANKING DOS JOGADORES ==')
 for i, v in enumerate(ranking):
     sleep(1)
     print(f'{i+1} lugar: {v[0]} com {v[1]}.')
-
-
-
-
