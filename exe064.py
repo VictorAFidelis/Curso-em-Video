@@ -8,10 +8,3 @@ while n != 999:
     soma += n
     n = int(input('Digite um número número: '))
 print('Foram digitados {} números e a soma dos números digitados é {}'. format(cont, soma))
-
-
-
-
-
-
-
