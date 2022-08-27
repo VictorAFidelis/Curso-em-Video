@@ -16,5 +16,3 @@ def aumentar(p, t):
 def diminuir(p, t):
     resp = p - (p * 13 / 100)
     return resp
-
-
