@@ -7,17 +7,3 @@ n = dados.leiaInt('Digite um número inteiro: ')
 print(f'O número que você digitou foi {n}')
 f = dados.leiaFloat('Digite um número real ')
 print(f'O número real que você digitou foi {f}')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
