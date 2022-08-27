@@ -12,9 +12,3 @@ for item in range(0, len(lista)):
         print(f'{lista[item]:.<30}', end='')
     else:
         print(f'R$ {lista[item]:>5.2f}')
-
-
-
-
-
-
