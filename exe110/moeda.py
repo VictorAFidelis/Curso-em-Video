@@ -49,8 +49,3 @@ def resumo(p, a, r,):
     print(f'Metade do Preço: \t{metade(p, True)}')
     print(f'{a}% de Aumento: \t{aumentar(p, a, True)}')
     print(f'{r}% de Redução: \t{diminuir(p, r, True)}')
-
-
-
-
-
