@@ -15,10 +15,3 @@ while True:
     if continuar == 'N':
         break
 print(f'A sequencia dos números digitados é {sorted(valores)}.')
-
-
-
-
-
-
-
