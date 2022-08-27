@@ -32,7 +32,3 @@ for p in pessoas:
     if p[1] == menor:
         print(f'{p[0]} ', end='')
 print()
-
-
-
-
