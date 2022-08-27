@@ -12,14 +12,3 @@ while True:
     if user >= 21:
         print('Número incorreto. Tente novamente!')
 print('Programa Encerrado!')
-
-
-
-
-
-
-
-
-
-
-
