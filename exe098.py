@@ -42,4 +42,3 @@ f = int(input('Fim: '))
 p = int(input('Passo: '))
 contador(i, f, p)
 linha()
-
