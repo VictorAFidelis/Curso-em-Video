@@ -12,8 +12,3 @@ while cont <= 10:
     termo += razão
     cont += 1
 print('FIM')
-
-
-
-
-
