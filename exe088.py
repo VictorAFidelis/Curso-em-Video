@@ -29,6 +29,3 @@ for i, l in enumerate(jogos): # Para cada indice na lista de jogos, enumere o jo
     print(f'Jogo {i+1}: {l}')
     sleep(1)
 print('-=-' * 4, 'BOA SORTE', '-=-' * 4)
-
-
-
