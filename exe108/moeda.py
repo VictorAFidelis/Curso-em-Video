@@ -25,4 +25,3 @@ def moeda(preço = 0, moeda = 'R$ '):
     :return: moeda e o valor(R$100,00)
     '''
     return f'{moeda}{preço:>.2f}'.replace('.', ',')
-
