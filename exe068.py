@@ -43,11 +43,3 @@ while True:
             break
         print('Vamos jogar novamente...')
 print(f'GAME OVER! Você ganhou {v} vezes')
-
-
-
-
-
-
-
-
