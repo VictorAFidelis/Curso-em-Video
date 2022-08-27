@@ -14,14 +14,3 @@ while not acertou:
     if jogador == computador:
         acertou = True
 print('Acertou!!! Foram preciso {} tentativas...'.format(palpites))
-
-
-
-
-
-
-
-
-
-
-
