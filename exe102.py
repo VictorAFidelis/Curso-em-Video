@@ -22,5 +22,3 @@ if show == 'S':
 elif show == 'N':
     show=False
 fatorial(n, show)
-
-
