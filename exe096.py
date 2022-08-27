@@ -11,7 +11,3 @@ print('-' * 25)
 l = float(input('Qual a largura do terreno em metros? '))
 c = float(input('Qual o comprimento do terreno em metros '))
 area(l, c)
-
-
-
-
