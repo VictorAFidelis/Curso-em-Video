@@ -31,4 +31,3 @@ def notas(*n, sit=False):
 #programa principal
 resp = notas(3.5, 4.8, 6.75, sit=True)
 print(resp)
-
