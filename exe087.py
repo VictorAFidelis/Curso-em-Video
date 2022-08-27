@@ -26,8 +26,3 @@ for c in range(0, 3):
          maior = matriz[1][c]
 print(f'O maior valor na segunda linha é {maior}')
 print('-=-' * 30)
-
-
-
-
-
