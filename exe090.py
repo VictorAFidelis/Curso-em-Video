@@ -14,3 +14,4 @@ else:
 """ Guanabara traz a seguinte solução para o final"""
 for k, v in aluno.items():
     print(f'  - {k} é igual {v}')
+
