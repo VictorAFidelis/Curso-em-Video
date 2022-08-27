@@ -23,4 +23,3 @@ while True:
 print(f'{maior} pessoas tem mais de 18 anos.')
 print(f'{homem} são homens.')
 print(f'{mulher} são mulheres e tem menos de 20 anos.')
-
