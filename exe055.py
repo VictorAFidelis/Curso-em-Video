@@ -2,7 +2,7 @@
 maior = 0
 menor = 0
 for p in range(1, 6):
-    peso = float(input('Peso da {} pessoa: '.format(p)))
+    peso = float(input(f'Peso da {p} pessoa: '))
     if p == 1:
         maior = peso
         menor = peso
@@ -13,8 +13,3 @@ for p in range(1, 6):
             menor = peso
 print('O maior peso lido é {}Kg.'.format(maior))
 print('O menos peso lido é {}Kg'.format(menor))
-
-
-
-
-
