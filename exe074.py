@@ -5,6 +5,3 @@ numeros = (randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randi
 print(f'Eu sorteei os numeros {numeros}: ')
 print(f'O maior número sorteado foi {max(numeros)}')
 print(f'O menor número sorteado foi {min(numeros)}')
-
-
-
