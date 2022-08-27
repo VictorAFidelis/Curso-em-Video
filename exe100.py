@@ -22,5 +22,3 @@ def somapar(lista):
 numeros = list()
 sortear(numeros)
 somapar(numeros)
-
-
