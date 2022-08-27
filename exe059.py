@@ -40,14 +40,3 @@ while opção != 5:
         print('Opção invalida - Tente novamente')
         print('-=-' * 10)
 print('Fim do Programa, volte sempre!!!')
-
-
-
-
-
-
-
-
-
-
-
