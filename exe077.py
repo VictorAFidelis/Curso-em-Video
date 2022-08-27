@@ -5,6 +5,3 @@ for p in palavras:
     for letra in p:
         if letra.lower() in 'aeiou':
             print(letra, end =' ')
-
-
-
