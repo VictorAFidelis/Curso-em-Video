@@ -20,4 +20,3 @@ for c in range(0, 5):
                 break
             pos += 1
 print(f'Os números digitados em ordem foram {valores}')
-
