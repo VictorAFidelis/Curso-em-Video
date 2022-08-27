@@ -6,17 +6,3 @@ from exe112.UtilidadesCeV import moeda
 from exe112.UtilidadesCeV import dados
 p = dados.leiaDinheiro('Digite o preço: R$ ')
 moeda.resumo(p, 30, 20)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
