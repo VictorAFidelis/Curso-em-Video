@@ -20,6 +20,3 @@ while True:
 print(f'Os números digitados foram {valores}')
 print(f'Os números pares digitados foram {pares}')
 print(f'Os números impares digitados foram {impares}')
-
-
-
