@@ -9,9 +9,3 @@ def escreva(msg):
 
 # Programa Principal
 escreva(msg=str(input('Digite uma palavra: ')))
-
-
-
-
-
-
