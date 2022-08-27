@@ -19,5 +19,3 @@ print(f'\nO menor valor digitado é {menor} e está na posição ', end='')
 for i, v in enumerate(valores):
     if v == menor:
         print(f'{i}...', end='')
-
-
